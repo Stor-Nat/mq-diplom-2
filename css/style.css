@@ -162,17 +162,20 @@ body {
 		font-size: 23px;
 		letter-spacing: 1px;
 	}
-	.subject-3 {
-		font-size: 28px;
-		letter-spacing: 1px;
-		line-height: 34px;
-	}
 	.text {
 		font-size: 15px;
 		letter-spacing: 1px;
 		line-height: 18px;
 		padding-top: 28px;
 		padding-bottom: 50px;
+	}
+	.picture-3, .foto-3 {
+		width: 100vw;
+	}
+	.subject-3 {
+		font-size: 28px;
+		letter-spacing: 1px;
+		line-height: 34px;
 	}
 	.number-3::after {
 		border-radius: 1px;
@@ -238,7 +241,8 @@ body {
 		background-image: url(../images/football_1280.jpg);
 	}
 	.logo {
-		width: 30.3%; /*35x130  55x205  50x190*/
+		width: 205px; /*35x130 30.3% 50x190*/
+		height: 50px;
 		margin: 0 auto; /*30 35 40*/ 
 	}
 	h1 {
@@ -283,36 +287,21 @@ body {
 		font-weight: 300;
 		padding-top: 8px;
 	}
-	.title-big {
-		font-size: 80px;
-		line-height: 60px;
-		padding: 80px 25px 0 285px;
-	}
-	.title-big-basketball {
-		padding: 80px 0 0 30px;
-	}
 	.picture-footballer {
 		height: 680px;
 		left: -160px;
 		top: 80px;
 	}
-	.picture-basketball {
-		right: 435px;
-		top: 20px;
+	.title-big {
+		font-size: 80px;
+		line-height: 60px;
+		padding: 80px 0 0 285px;
 	}
 	.article-aside-footballer {
 		margin-left: 285px;
 		margin-right: 25px;
 	}
-	.article-aside-basketball {
-		margin-left: 30px;
-		margin-right: 25px;
-		width: 50%;
-	}
 	.number-subject-footballer {
-		padding-top: 30px;
-	}
-	.number-subject-basketball {
 		padding-top: 30px;
 	}
 	.number {
@@ -327,12 +316,6 @@ body {
 		border-radius: 2px;
 		margin: 2px auto;
 	}
-		.number-basketball {
-		font-size: 18px;
-		letter-spacing: 1px;
-		line-height: 34px;
-		padding-right: 10px;
-	}
 	.aside:nth-child(3n+3) .number::after, .aside-basketball:nth-child(3n+3) .number-basketball::after {
 		height: 5px;
 		width: 21px;
@@ -343,19 +326,43 @@ body {
 		font-size: 32px;
 		letter-spacing: 2px;
 	}
-	.article-aside-3 {
-		padding: 60px 25px 0 25px;
-	}
-	.subject-3 {
-		font-size: 80px;
-		letter-spacing: 1px;
-	}
 	.text {
 		font-size: 16px;
 		letter-spacing: 1px;
 		line-height: 28px;
 		padding-top: 25px;
 		padding-bottom: 30px;
+	}
+	.picture-basketball {
+		right: 435px;
+		top: 20px;
+	}
+	.title-big-basketball {
+		padding: 80px 0 0 30px;
+	}
+	.article-aside-basketball {
+		margin-left: 30px;
+		margin-right: 25px;
+		width: 50%;
+	}
+	.number-subject-basketball {
+		padding-top: 30px;
+	}
+	.number-basketball {
+		font-size: 18px;
+		letter-spacing: 1px;
+		line-height: 34px;
+		padding-right: 10px;
+	}
+	.picture-3, .foto-3 {
+		width: 100vw;
+	}
+	.article-aside-3 {
+		padding: 60px 25px 0 25px;
+	}
+	.subject-3 {
+		font-size: 80px;
+		letter-spacing: 1px;
 	}
 	.number-3::after {
 		border-radius: 1px;
@@ -398,12 +405,10 @@ body {
 	}
 	.app {
 		font-size: 80px;
-		/* letter-spacing: 3px; */
 		text-align: center;
 	}
 	.slogan {
 		font-size: 36px;
-		/* letter-spacing: 0.6px; */
 		text-align: center;
 	}
 	.buttons-footer {
@@ -417,35 +422,201 @@ body {
 
 @media (min-width: 961px) and (max-width: 1920px){
 	.wrap-header {
-		margin: 2.1% 10% 5.68%;
+		margin: 2% 9.6% 4.9%; /*40px 185px 95px*/
 	}
 	.header {
 		background-image: url(../images/football_1920.jpg);
 	}
 	.logo {
-		width: 12.5%;
+		width: 190px; /*12.5%*/
+		height: 50px;
 		margin: 0 auto;
 	}
 	h1 {
 		margin: 0;
 	}
 	.title {
-		margin: 290px auto 218px;
-		max-width: 1520px;
+		margin: 265px auto 195px;
+		max-width: 1450px;
 		letter-spacing: 5px;
-		display: block;
 	}
 	.title-1 {
 		font-size: 90px;
-	
 	}
 	.title-2 {
 		font-size: 90px;
+		min-width: 780px;
+		margin-left: auto;
 		text-align: right;
 	}
+	.button-list {
+		max-width: 670px;
+		justify-content: center;
+	}
+	.item {
+		width: 300px;
+		height: 70px;
+	}
+	.item:first-child {
+		margin-right: 45px;
+	}
+	.item-icon {
+		width: 210px;
+	}
+	.logo-icon {
+		width: 40px;
+		padding-right: 20px;
+		padding-top: 10px;
+	}
+	.item-text {
+		font-size: 14px;
+	}
+	.row-1 {
+		font-weight: 400;
+		padding-top: 15px;
+	}
+	.box {
+		overflow: hidden;
+	}
+	.picture-footballer {
+		left: calc(50% - 566px);
+		top: 20px;
+	}
+	.title-big {
+		font-size: 80px;
+		line-height: 60px;
+		padding-left: calc(50% + 40px);
+		padding-top: 110px;
+		padding-bottom: 45px;
+	}
+	.article-aside-footballer {
+		margin-left: calc(50vw + 40px);
+		margin-right: 181px;
+	}
+	.number-subject-footballer {
+		padding-top: 45px;
+	}
+	.number {
+		font-size: 18px;
+		letter-spacing: 1px;
+		line-height: 34px;
+		padding-right: 10px;
+	}
+	.number::after {
+		height: 5px;
+		width: 21px;
+		border-radius: 2px;
+		margin: 2px auto;
+	}
+	.aside:nth-child(3n+3) .number::after, .aside-basketball:nth-child(3n+3) .number-basketball::after {
+		height: 5px;
+		width: 21px;
+		border-radius: 2px;
+		margin: 2px auto;
+	}	
+	.subject {
+		font-size: 36px;
+		letter-spacing: 2px;
+	}
+	.text {
+		font-size: 20px;
+		letter-spacing: 1px;
+		line-height: 28px;
+		padding-top: 25px;
+		padding-bottom: 50px;
+	}
+	.picture-basketball {
+		left: calc(100vw - 50%);
+		top: 20px;
+	}
+	.title-big-basketball {
+		padding-top: 110px;
+		padding-left: 180px;
+	}
+	.article-aside-basketball {
+		margin-left: 9.4%;
+	}
+	.number-subject-basketball {
+		padding-top: 30px;
+	}
+	.number-basketball {
+		font-size: 18px;
+		letter-spacing: 1px;
+		line-height: 34px;
+		padding-right: 10px;
+	}
+	.aside-3 {
+		display: flex;
+	}
+	.picture-3:nth-child(even), .foto-3:nth-child(even) {
+		float: right;
+		order: -1;
+	}
+	.article-aside-3 {
+		padding: 250px 160px 0 110px;
+	}
+	.subject-3 {
+		font-size: 80px;
+		letter-spacing: 1px;
+	}
+	.number-3 {	
+		font-size: 24px;
+		letter-spacing: 1px;
+		width: 155px;
+		height: 165px;
+		padding-top: 60px;
+		left: calc(100% - 155px / 2);
+		top: calc(50% - 165px / 2);
+	}	
+	.number-3::after {
+		border-radius: 1px;
+		margin: 2px auto;
+		height: 4px;
+		width: 26px;
+	}
+	.text-3 {
+		font-size: 24px;
+		line-height: 28px;
+		padding-top: 30px;
+	}
+
 
 	.footer {
 		background-image: url(../images/game_1920.jpg);
+	}
+	.wrap-footer {
+		margin: 210px auto 40px auto;
+	}
+	.logo-down {
+		display: flex;
+		width: 860px;
+		margin: 0 auto 135px;
+		align-items: center;
+	}
+	.logo-big {
+		width: 125px;
+		height: 130px;
+	}
+	.logo-img {
+		width: 100px;
+		height: 85px;
+		padding-top: 24px;
+	}
+	.download {
+		max-width: 695px;
+		margin-left: 30px;
+		
+	}.app {
+		font-size: 80px;
+		line-height: 70px;
+		text-align: center;
+	}
+	.slogan {
+		font-size: 30px;
+		text-align: center;
+	}
+	.buttons-footer {
+		margin-bottom: 250px;
 	}
 }
 
@@ -527,14 +698,11 @@ body {
 }
 
 .picture, .foto {
-	/* width: 100vw; */
 	margin: 0 auto;
 	position: absolute;
 }
 
 .title-big {
-	/* font-size: 50px;
-	line-height: 60px; */
 	color: #e7e7e7;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -550,7 +718,6 @@ body {
 	position: relative;
 }
 .picture-3, .foto-3 {
-	width: 100vw;
 	position: relative;
 }
 /* .article-aside {
