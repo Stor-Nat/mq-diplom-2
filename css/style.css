@@ -119,10 +119,7 @@ body {
 	.title-big {
 		font-size: 50px;
 		line-height: 60px;
-		padding: 10px 0 0 20px;
-	}
-	.article {
-		padding-top: 230px;
+		padding: 10px 0 230px 20px;
 	}
 	.article-aside {
 		margin-left: 20px;
