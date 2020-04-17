@@ -548,8 +548,8 @@ body {
 		width: 50vw;
 	}
 	.article-aside-3 {
-		padding-left: 6%;
-		padding-right: 4%;
+		padding-left: 9%;
+		padding-right: 9%;
 	}
 	.aside-3:nth-child(even) > .article-aside-3 {
 		order: -1;
@@ -581,6 +581,7 @@ body {
 	.text-3 {
 		font-size: 24px;
 		line-height: 28px;
+		letter-spacing: 1px;
 		padding-top: 30px;
 	}
 
