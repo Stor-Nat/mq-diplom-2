@@ -553,6 +553,8 @@ body {
 	}
 	.aside-3:nth-child(even) > .article-aside-3 {
 		order: -1;
+		padding-left: 6%;
+		padding-right: 6%;
 	}
 	.subject-3 {
 		font-size: 80px;
