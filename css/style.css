@@ -631,14 +631,16 @@ body {
 
 
 
-/* @media (min-width: 1921px) {
+@media (min-width: 1921px) {
 	.content {
 	width: 1920px;
 	justify-content: center;
 	margin: 0 auto;
-
 }
-} */
+.picture-3, .foto-3 {
+	width: 960px;
+}
+}
 
 
 
