@@ -70,7 +70,6 @@ body {
 	.logo {
 		width: 130px; /*46.4%  55x205  50x190*/
 		height: 35px;
-		margin: 0 auto;
 	}
 	.title {
 		margin: 130px auto 80px;
@@ -240,7 +239,6 @@ body {
 	.logo {
 		width: 205px; /*35x130 30.3% 50x190*/
 		height: 50px;
-		margin: 0 auto; /*30 35 40*/ 
 	}
 	h1 {
 		margin: 0;
@@ -417,7 +415,7 @@ body {
 /*             961 - 1920             */
 
 
-@media (min-width: 961px) and (max-width: 1920px){
+@media (min-width: 961px) /*and (max-width: 1920px)*/ {
 	.wrap-header {
 		margin: 2% 9.6% 4.9%; /*40px 185px 95px*/
 	}
@@ -427,7 +425,6 @@ body {
 	.logo {
 		width: 190px; /*12.5%*/
 		height: 50px;
-		margin: 0 auto;
 	}
 	h1 {
 		margin: 0;
@@ -490,9 +487,6 @@ body {
 		margin-left: calc(50vw + 40px);
 		margin-right: 9%;
 	}
-	/* .article-aside-footballer p {
-		max-width: 705px;
-	} */
 	.number-subject-footballer {
 		padding-top: 45px;
 	}
@@ -526,21 +520,19 @@ body {
 		padding-bottom: 50px;
 	}
 	.picture-basketball {
-		left: calc(100vw - 50%);
+		left: calc(100vw - 50% - 130px);
 		top: 20px;
 	}
 	.title-big-basketball {
 		padding-top: 110px;
-		padding-left: 180px;
+		padding-left: 10vw;
 	}
 	.article-aside-basketball {
+		margin-right: 50vw;
 		margin-left: 10vw;
 	}
-	/* .article-aside-basketball p {
-		max-width: 750px;
-	} */
 	.number-subject-basketball {
-		padding-top: 30px;
+		padding-top: 45px;
 	}
 	.number-basketball {
 		font-size: 18px;
@@ -572,10 +564,12 @@ body {
 		width: 8vw;
 		height: 8.6vw;
 		padding-top: calc(8vw / 2 - 24px / 2);
-		left: calc(100% - 8vw / 2);
 		top: calc(40% - 8vw / 2);
 	}
-	.number-3:nth-child(even) {
+	.aside-3:nth-child(odd) .number-3 {
+		left: calc(100% - 8vw / 2);
+	}
+	.aside-3:nth-child(even) .number-3 {
 		right: calc(100% - 8vw / 2);
 	}
 	.number-3::after {
@@ -629,6 +623,25 @@ body {
 	}
 }
 
+
+/*             >   1920             */
+
+
+
+@media (min-width: 1921px) {
+	.box {
+		flex-grow: 0;
+	}
+
+}
+
+
+
+
+
+.logo {
+	margin: 0 auto;
+}
 .title {
 	letter-spacing: 1px;
 	color: #ffffff;
@@ -636,6 +649,7 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 }
+
 
 .button-list {
 	-webkit-appearance: none;
