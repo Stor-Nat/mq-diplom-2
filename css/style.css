@@ -144,7 +144,7 @@ body {
   }
 
   .number-subject-footballer {
-    padding-top: 55px;
+    padding-top: 53px;
   }
 
   .number {
@@ -158,7 +158,7 @@ body {
   .number::after {
     width: 16px;
     height: 4px;
-    margin: 1px auto;
+    margin: 0 auto;
     border-radius: 1px;
   }
 
@@ -173,7 +173,7 @@ body {
   }
 
   .number-subject-basketball {
-    padding-top: 52px;
+    padding-top: 53px;
   }
 
   .number-basketball {
@@ -192,7 +192,7 @@ body {
   .aside-basketball:nth-child(3n + 3) .number-basketball::after {
     width: 16px;
     height: 4px;
-    margin: 1px auto;
+    margin: 0 auto;
     border-radius: 1px;
   }
 
@@ -203,7 +203,7 @@ body {
 
   .news {
     padding-top: 18px;
-    padding-bottom: 51px;
+    padding-bottom: 52px;
     font-size: 15px;
     letter-spacing: 0.8px;
     line-height: 18px;
@@ -211,7 +211,7 @@ body {
 
   .news-basketball {
     padding-top: 18px;
-    padding-bottom: 54px;
+    padding-bottom: 53px;
     font-size: 15px;
     letter-spacing: 0.8px;
     line-height: 18px;
@@ -219,6 +219,7 @@ body {
 
   .picture-3block,
   .photo-3block {
+    display: block;
     width: 100vw;
   }
 
@@ -236,7 +237,7 @@ body {
   }
 
   .number-3block {
-    bottom: -8px;
+    bottom: -10px;
     left: 20px;
     width: 70px;
     height: 70px;
@@ -246,11 +247,11 @@ body {
   }
 
   .article-aside-3block {
-    margin: 24px 22px 0 20px;
+    margin: 25px 22px 0 20px;
   }
 
   .news-3block {
-    padding: 17px 0 73px;
+    padding: 17px 0 77px;
     font-size: 16px;
     letter-spacing: 0.8px;
     line-height: 20px;
@@ -268,17 +269,18 @@ body {
     width: 70px;
     height: 70px;
     margin: 0 auto;
+    border-radius: 15px;
   }
 
   .logo-img {
     width: 63px;
     height: 47px;
-    padding-top: 13px;
+    padding-top: 11px;
   }
 
   .title-footer {
     width: 280px;
-    margin: 52px auto 65px;
+    margin: 50px auto 65px;
   }
 
   .app {
@@ -457,11 +459,12 @@ body {
 
   .picture-3block,
   .photo-3block {
+    display: block;
     width: 100vw;
   }
 
   .article-aside-3block {
-    padding: 55px 55px 0 31px;
+    padding: 60px 55px 0 31px;
   }
 
   .subject-3block {
@@ -479,14 +482,14 @@ body {
     width: 115px;
     height: 114px;
     left: 35px;
-    bottom: -28px;
+    bottom: -35px;
     padding-top: 30px;
     font-size: 24px;
     letter-spacing: 1px;
   }
 
   .news-3block {
-    padding: 10px 0 100px;
+    padding: 8px 0 103px;
     font-size: 24px;
     letter-spacing: 1.2px;
     line-height: 28px;
@@ -504,6 +507,7 @@ body {
     width: 125px;
     height: 133px;
     margin: 0 auto;
+    border-radius: 25px;
   }
 
   .logo-img {
@@ -711,7 +715,7 @@ body {
 
   .news-basketball {
     padding-top: 25px;
-    padding-bottom: 83px;
+    padding-bottom: 81px;
   }
 
   .aside-3block {
@@ -721,6 +725,7 @@ body {
 
   .picture-3block,
   .photo-3block {
+    display: block;
     width: 50vw;
   }
 
@@ -742,7 +747,7 @@ body {
   }
 
   .number-3block {
-    top: calc(40% - 9vw / 2);
+    top: calc(41% - 9vw / 2);
     width: 8.5vw;
     height: 7.8vw;
     padding-top: calc(7vw / 2 - 20px / 2);
@@ -777,7 +782,7 @@ body {
   }
 
   .wrap-footer {
-    margin: 210px auto 40px auto;
+    margin: 230px auto 40px auto;
   }
 
   .logo-down {
@@ -791,6 +796,7 @@ body {
     width: 130px;
     height: 130px;
     margin: 0;
+    border-radius: 30px;
   }
 
   .logo-img {
@@ -1022,7 +1028,6 @@ body {
 .logo-big {
   background-color: #5e42b0;
   border: 1px solid #5e42b0;
-  border-radius: 25px;
   text-align: center;
 }
 
