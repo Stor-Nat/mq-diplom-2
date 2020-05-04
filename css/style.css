@@ -6,18 +6,18 @@ body {
 
 @font-face {
   font-family: "OpenSans";
-  src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
-  src: url("../fonts/OpenSans-Bold.woff2") format("woff2");
-  src: url("../fonts/OpenSans-Bold.woff") format("woff");
+  src: url("../fonts/OpenSans-Bold.ttf") format("truetype"),
+       url("../fonts/OpenSans-Bold.woff2") format("woff2"), 
+       url("../fonts/OpenSans-Bold.woff") format("woff");
   font-style: normal;
   font-weight: 700;
 }
 
 @font-face {
   font-family: "OpenSans";
-  src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
-  src: url("../fonts/OpenSans-Regular.woff2") format("woff2");
-  src: url("../fonts/OpenSans-Regular.woff") format("woff");
+  src: url("../fonts/OpenSans-Regular.ttf") format("truetype"),
+       url("../fonts/OpenSans-Regular.woff2") format("woff2"),
+       url("../fonts/OpenSans-Regular.woff") format("woff");
   font-style: normal;
   font-weight: 400;
 }
@@ -56,11 +56,11 @@ body {
 
 @media (max-width: 640px) {
   .wrap-header {
-    margin: 33px 10px 80px;
+    background-image: url("../images/football_767.jpg");
   }
 
   .header {
-    background-image: url("../images/football_767.jpg");
+    margin: 33px 10px 80px;
   }
 
   .logo {
@@ -111,20 +111,20 @@ body {
     font-size: 8px;
   }
 
-  .row-1 {
+  .button-name-row-1 {
     padding-top: 5px;
     letter-spacing: 0.2px;
     line-height: 7px;
     font-weight: 400;
   }
 
-  .row-2 {
+  .button-name-row-2 {
     letter-spacing: 1px;
   }
 
   .picture-footballer {
     top: 78px;
-    left: calc(50% - 180px / 2);
+    left: calc(50% - 90px);
     width: 170px;
   }
 
@@ -164,7 +164,7 @@ body {
 
   .picture-basketball {
     top: 80px;
-    left: calc(50% - 300px / 2);
+    left: calc(50% - 150px);
     width: 300px;
   }
 
@@ -217,26 +217,26 @@ body {
     line-height: 18px;
   }
 
-  .picture-3block,
-  .photo-3block {
+  .picture-experience,
+  .photo-experience {
     display: block;
     width: 100vw;
   }
 
-  .subject-3block {
+  .subject-experience {
     font-size: 28px;
     letter-spacing: 1px;
     line-height: 34px;
   }
 
-  .number-3block::after {
+  .number-experience::after {
     width: 16px;
     height: 4px;
     margin: 2px auto;
     border-radius: 1px;
   }
 
-  .number-3block {
+  .number-experience {
     bottom: -10px;
     left: 20px;
     width: 70px;
@@ -246,22 +246,22 @@ body {
     letter-spacing: 1px;
   }
 
-  .article-aside-3block {
+  .article-aside-experience {
     margin: 25px 22px 0 20px;
   }
 
-  .news-3block {
+  .news-experience {
     padding: 17px 0 77px;
     font-size: 16px;
     letter-spacing: 0.8px;
     line-height: 20px;
   }
 
-  .footer {
+  .wrap-footer {
     background-image: url("../images/game_767.jpg");
   }
 
-  .wrap-footer {
+  .footer {
     margin: 92px 20px 8px;
   }
 
@@ -302,11 +302,11 @@ body {
 
 @media (min-width: 641px) and (max-width: 960px) {
   .wrap-header {
-    margin: 37px 55px 85px;
+    background-image: url("../images/football_1280.jpg");
   }
 
   .header {
-    background-image: url("../images/football_1280.jpg");
+    margin: 37px 55px 85px;
   }
 
   .logo {
@@ -319,7 +319,7 @@ body {
   }
 
   .title {
-    width: calc(100vw - 110px - 48px);
+    width: calc(100vw - 158px);
     max-width: 650px;
     margin: 168px auto 301px;
   }
@@ -362,11 +362,12 @@ body {
     font-size: 14px;
   }
 
-  .row-1 {
+  .button-name-row-1 {
     padding-top: 8px;
     font-weight: 300;
   }
-  .row-2 {
+
+  .button-name-row-2 {
     letter-spacing: 1px;
   }
 
@@ -457,28 +458,28 @@ body {
     line-height: 28px;
   }
 
-  .picture-3block,
-  .photo-3block {
+  .picture-experience,
+  .photo-experience {
     display: block;
     width: 100vw;
   }
 
-  .article-aside-3block {
+  .article-aside-experience {
     padding: 60px 55px 0 31px;
   }
 
-  .subject-3block {
+  .subject-experience {
     font-size: 80px;
   }
 
-  .number-3block::after {
+  .number-experience::after {
     width: 28px;
     height: 4px;
     margin: 2px auto;
     border-radius: 1px;
   }
 
-  .number-3block {
+  .number-experience {
     width: 115px;
     height: 114px;
     left: 35px;
@@ -488,18 +489,18 @@ body {
     letter-spacing: 1px;
   }
 
-  .news-3block {
+  .news-experience {
     padding: 8px 0 103px;
     font-size: 24px;
     letter-spacing: 1.2px;
     line-height: 28px;
   }
 
-  .footer {
+  .wrap-footer {
     background-image: url("../images/game_1280.jpg");
   }
 
-  .wrap-footer {
+  .footer {
     margin: 135px 10px 30px;
   }
 
@@ -543,11 +544,11 @@ body {
 
 @media (min-width: 961px) {
   .wrap-header {
-    margin: 40px 9.3% 110px;
+    background-image: url("../images/football_1920.jpg");
   }
 
   .header {
-    background-image: url("../images/football_1920.jpg");
+    margin: 40px 9.3% 110px;
   }
 
   .logo {
@@ -608,14 +609,14 @@ body {
     font-size: 14px;
   }
 
-  .row-1 {
+  .button-name-row-1 {
     padding-top: 8px;
     letter-spacing: 1px;
     line-height: 20px;
     font-weight: 400;
   }
 
-  .row-2 {
+  .button-name-row-2 {
     font-weight: bold;
     letter-spacing: 1.2px;
     line-height: 16px;
@@ -718,70 +719,70 @@ body {
     padding-bottom: 81px;
   }
 
-  .aside-3block {
+  .aside-experience {
     display: flex;
     align-items: center;
   }
 
-  .picture-3block,
-  .photo-3block {
+  .picture-experience,
+  .photo-experience {
     display: block;
     width: 50vw;
   }
 
-  .article-aside-3block {
+  .article-aside-experience {
     padding-right: 9%;
     padding-left: 6.5%;
   }
 
-  .aside-3block:nth-child(even) > .article-aside-3block {
+  .aside-experience:nth-child(even)>.article-aside-experience {
     order: -1;
     padding-right: 6%;
     padding-left: 10%;
   }
 
-  .subject-3block {
+  .subject-experience {
     font-size: 4.16vw;
     letter-spacing: 1px;
     opacity: 0.4;
   }
 
-  .number-3block {
-    top: calc(41% - 9vw / 2);
+  .number-experience {
+    top: calc(41% - 4.25vw);
     width: 8.5vw;
     height: 7.8vw;
-    padding-top: calc(7vw / 2 - 20px / 2);
-    font-size: 24px;
+    padding-top: calc(3.5vw - 10px);
+    font-size: 1.25vw;
     letter-spacing: 1px;
   }
 
-  .aside-3block:nth-child(odd) .number-3block {
-    left: calc(100% - 8vw / 2);
+  .aside-experience:nth-child(odd) .number-experience {
+    left: calc(100% - 4vw);
   }
 
-  .aside-3block:nth-child(even) .number-3block {
-    right: calc(100% - 8vw / 2);
+  .aside-experience:nth-child(even) .number-experience {
+    right: calc(100% - 4vw);
   }
 
-  .number-3block::after {
+  .number-experience::after {
     width: 26px;
     height: 4px;
     margin: 2px auto;
     border-radius: 1px;
   }
 
-  .news-3block {
+  .news-experience {
     padding-top: 70px;
     font-size: 24px;
     letter-spacing: 1.2px;
     line-height: 28px;
   }
 
-  .footer {
+  .wrap-footer {
     background-image: url("../images/game_1920.jpg");
   }
 
-  .wrap-footer {
+  .footer {
     margin: 230px auto 40px auto;
   }
 
@@ -809,7 +810,7 @@ body {
     max-width: 720px;
     margin-left: 35px;
   }
-  
+
   .app {
     font-size: 80px;
     line-height: 85px;
@@ -842,14 +843,14 @@ body {
     margin-left: calc(50vw - 750px);
   }
 
-  .article-3block {
+  .article-experience {
     width: 1920px;
     margin: 0 auto;
     justify-content: center;
   }
 
-  .picture-3block,
-  .photo-3block {
+  .picture-experience,
+  .photo-experience {
     width: 960px;
   }
 }
@@ -894,7 +895,7 @@ body {
   color: #ffffff;
 }
 
-.row-2 {
+.button-name-row-2 {
   font-weight: bold;
 }
 
@@ -919,19 +920,21 @@ body {
 }
 
 .article {
-  counter-reset: section; /* счетчик=0*/
+  counter-reset: section;
+  /* счетчик=0*/
 }
 
-.article-3block {
-  counter-reset: section; /* счетчик=0*/
+.article-experience {
+  counter-reset: section;
+  /* счетчик=0*/
 }
 
 .photo-box {
   position: relative;
 }
 
-.picture-3block,
-.photo-3block {
+.picture-experience,
+.photo-experience {
   position: relative;
 }
 
@@ -954,9 +957,12 @@ body {
 
 .number::before,
 .number-basketball::before,
-.number-3block::before {
-  counter-increment: section; /* Инкрементирует счетчик*/
-  content: counter(section, decimal-leading-zero); /* Отображает текущее значение счетчика*/
+.number-experience::before {
+  counter-increment: section;
+  /* Инкрементирует счетчик*/
+  content: counter(section,
+      decimal-leading-zero);
+  /* Отображает текущее значение счетчика*/
 }
 
 .number {
@@ -989,7 +995,7 @@ body {
   opacity: 0.4;
 }
 
-.subject-3block {
+.subject-experience {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
@@ -1007,14 +1013,14 @@ body {
   color: #ffffff;
 }
 
-.number-3block::after {
+.number-experience::after {
   content: "";
   display: block;
   background-color: #ffffff;
   opacity: 0.3;
 }
 
-.number-3block {
+.number-experience {
   position: absolute;
   box-sizing: border-box;
   font-weight: bold;
