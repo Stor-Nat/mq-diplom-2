@@ -32,12 +32,14 @@ body {
 .background {
   position: relative;
   background-size: cover;
-  background: no-repeat 50% 50% #0a0e34;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color: #0a0e34;
   border: 1px solid #0a0e34;
 }
 
 .background::after {
-  content: "";
+  content: " ";
   position: absolute;
   top: 0;
   right: 0;
@@ -173,7 +175,7 @@ body {
   }
 
   .number-subject-basketball {
-    padding-top: 53px;
+    padding-top: 52px;
   }
 
   .number-basketball {
@@ -211,9 +213,9 @@ body {
 
   .news-basketball {
     padding-top: 18px;
-    padding-bottom: 53px;
+    padding-bottom: 54px;
     font-size: 15px;
-    letter-spacing: 0.8px;
+    letter-spacing: 0.7px;
     line-height: 18px;
   }
 
@@ -247,14 +249,14 @@ body {
   }
 
   .article-aside-experience {
-    margin: 25px 22px 0 20px;
+    margin: 28px 22px 0 20px;
   }
 
   .news-experience {
-    padding: 17px 0 77px;
+    padding: 16px 0 78px;
     font-size: 16px;
     letter-spacing: 0.8px;
-    line-height: 20px;
+    line-height: 19px;
   }
 
   .wrap-footer {
@@ -262,7 +264,7 @@ body {
   }
 
   .footer {
-    margin: 92px 20px 8px;
+    margin: 94px 20px 8px;
   }
 
   .logo-big {
@@ -285,7 +287,7 @@ body {
 
   .app {
     font-size: 32px;
-    letter-spacing: 1.3px;
+    letter-spacing: 1.1px;
   }
 
   .slogan {
@@ -334,7 +336,7 @@ body {
     width: 490px;
     margin-left: auto;
     font-size: 64px;
-    letter-spacing: 3px;
+    letter-spacing: 2.5px;
     line-height: 72px;
   }
 
@@ -434,7 +436,7 @@ body {
 
   .picture-basketball {
     top: 38px;
-    right: 435px;
+    right: 0;
   }
 
   .title-block-basketball {
@@ -525,7 +527,7 @@ body {
   .app {
     font-size: 80px;
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 1.6px;
   }
 
   .slogan {
@@ -632,9 +634,8 @@ body {
   }
 
   .picture-footballer {
-    position: absolute;
     top: 28px;
-    left: calc(50% - 566px);
+    right: 50vw;
   }
 
   .title-block {
@@ -690,7 +691,7 @@ body {
 
   .picture-basketball {
     top: 24px;
-    right: calc(50% + 155px);
+    left: 42vw;
   }
 
   .title-block-basketball {
@@ -907,8 +908,7 @@ body {
   flex-wrap: wrap;
 }
 
-.picture,
-.photo {
+.picture {
   position: absolute;
   margin: 0 auto;
 }
@@ -920,13 +920,11 @@ body {
 }
 
 .article {
-  counter-reset: section;
-  /* счетчик=0*/
+  counter-reset: section; /* счетчик=0*/
 }
 
 .article-experience {
-  counter-reset: section;
-  /* счетчик=0*/
+  counter-reset: section; /* счетчик=0*/
 }
 
 .photo-box {
@@ -958,11 +956,8 @@ body {
 .number::before,
 .number-basketball::before,
 .number-experience::before {
-  counter-increment: section;
-  /* Инкрементирует счетчик*/
-  content: counter(section,
-      decimal-leading-zero);
-  /* Отображает текущее значение счетчика*/
+  counter-increment: section; /* Инкрементирует счетчик*/
+  content: counter(section, decimal-leading-zero); /* Отображает текущее значение счетчика*/
 }
 
 .number {
@@ -987,19 +982,14 @@ body {
   background-color: #ffffff;
 }
 
-.subject {
+.subject, .subject-experience {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
   color: #c1c1c1;
-  opacity: 0.4;
 }
 
 .subject-experience {
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: bold;
-  color: #c1c1c1;
   opacity: 0.4;
 }
 
