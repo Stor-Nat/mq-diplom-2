@@ -908,9 +908,8 @@ body {
   flex-wrap: wrap;
 }
 
-.picture {
+.picture-footballer, .picture-basketball {
   position: absolute;
-  margin: 0 auto;
 }
 
 .title-block {
@@ -929,10 +928,12 @@ body {
 
 .photo-box {
   position: relative;
+  min-height: 25vw;
+  background-color: #c5d4f4;
 }
 
-.picture-experience,
-.photo-experience {
+.photo-experience,
+.picture-experience {
   position: relative;
 }
 
