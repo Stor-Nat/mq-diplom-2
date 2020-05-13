@@ -854,6 +854,28 @@ body {
   .photo-experience {
     width: 960px;
   }
+
+  .subject-experience {
+    font-size: 80px;
+  }
+
+  .number-experience {
+    top: 220px;
+    width: 165px;
+    height: 150px;
+    padding-top: 55px;
+    font-size: 24px;
+    letter-spacing: 1px;
+    align-items: center;
+  }
+
+  .aside-experience:nth-child(odd) .number-experience {
+    left: 880px;
+  }
+
+  .aside-experience:nth-child(even) .number-experience {
+    right: 880px;
+  }
 }
 
 .logo {
@@ -928,8 +950,8 @@ body {
 
 .photo-box {
   position: relative;
-  min-height: 25vw;
-  background-color: #c5d4f4;
+  min-height: 350px;
+  background-color: #f5f4f9;
 }
 
 .photo-experience,
